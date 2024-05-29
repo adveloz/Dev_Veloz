@@ -17,7 +17,7 @@ console.log(posts);
 //   </div>;
 // };
 
-const Blog = ({ post }) => (
+const Blog = ({ posts }) => (
   <Layout footer={false} title="My Blog" dark>
     <div className="row">
       {/* {posts.map((post, i) => (
